@@ -4,7 +4,7 @@
 #include "Person.h"
 using namespace std;
 
-class instructor{
+class Instructor{
   private:
     string department;
     int experienceYears;
