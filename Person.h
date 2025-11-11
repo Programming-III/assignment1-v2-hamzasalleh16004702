@@ -5,7 +5,7 @@
 using namespace std;
 
 class person{
-protected:
+private:
   string name;
   int id;
 public:
