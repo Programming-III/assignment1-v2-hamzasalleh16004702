@@ -5,7 +5,7 @@
 #include "Student.h"
 using namespace std;
 
-class course{
+class Course{
   private:
     string courseCode;
     string courseName;
@@ -33,10 +33,5 @@ class course{
       cout << "currently enrolled: " << currentStudents << endl;
     }
 }
-        
-
-
-
-
 
 #endif
