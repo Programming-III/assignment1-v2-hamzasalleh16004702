@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-class person{
+class Person{
 private:
   string name;
   int id;
@@ -18,6 +18,5 @@ public:
     cout << "id: " << id << endl;
   }
 }
-
 
 #endif
