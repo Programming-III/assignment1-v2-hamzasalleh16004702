@@ -19,12 +19,4 @@ class instructor{
     }
 }
 
-
-
-
-
-
-
-
-
 #endif
