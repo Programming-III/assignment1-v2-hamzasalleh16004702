@@ -6,7 +6,7 @@
 #using namespace std;
 
 calss student{
-  protected:
+  private:
     int yearLevel;
     string major;
   public:
