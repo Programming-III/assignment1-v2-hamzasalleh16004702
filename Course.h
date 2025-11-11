@@ -27,10 +27,10 @@ class course{
         currentStudents += 1;
     }
     void displayCourseInfo(){
-      cout << "course code: " << courseCode << endl;
-      cout << "course name: " << courseName << endl;
-      cout << "max students: " << maxStudents << endl;
-      cout << "current students: " << currentStudents << endl;
+      cout << "course: " << courseCode;
+      cout << " - " << courseName << endl;
+      cout << "Max Students: " << maxStudents << endl;
+      cout << "currently enrolled: " << currentStudents << endl;
     }
 }
         
