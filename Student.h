@@ -5,7 +5,7 @@
 #include <string>
 #using namespace std;
 
-calss student{
+calss Student{
   private:
     int yearLevel;
     string major;
@@ -19,13 +19,5 @@ calss student{
       cout << "major " << major << endl;
     }
 }
-
-
-
-
-
-
-
-
 
 #endif
