@@ -42,8 +42,11 @@ using namespace std;
 
 // ==================== Main Function ====================
 int main() {
+   cout << "course info: " << endl;
    Course.display();
+   cout << "instructor info: " << endl;
    Instructor.display();
+   cout << "Student info: " << endl;
    Student.display();
    
     
