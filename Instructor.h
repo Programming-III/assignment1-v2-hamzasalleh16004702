@@ -3,10 +3,21 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
 
-
-
+class instructor{
+  private:
+    string department;
+    int experienceYears;
+  public:
+    instructor(string d, int ey){
+      this -> department = d;
+      this -> experienceYears = ey;
+    }
+    void display(){
+      cout << "department: " << department << endl;
+      cout << "experience years: " << experienceYears << endl;
+    }
+}
 
 
 
