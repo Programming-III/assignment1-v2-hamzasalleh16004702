@@ -42,6 +42,9 @@ using namespace std;
 
 // ==================== Main Function ====================
 int main() {
+   Course.display();
+   Instructor.display();
+   Student.display();
    
     
     return 0;
