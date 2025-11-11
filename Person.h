@@ -4,17 +4,20 @@
 #include <string>
 using namespace std;
 
-//#write Person class here
-
-
-
-
-
-
-
-
-
-
+class person{
+protected:
+  string name;
+  int id;
+public:
+  person(string n, int id){
+  name = n;
+  id = id;
+  }
+  void display(){
+    cout << "name: " << name << endl;
+    cout << "id: " << id << endl;
+  }
+}
 
 
 #endif
